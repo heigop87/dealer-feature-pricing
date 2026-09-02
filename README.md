@@ -1,8 +1,13 @@
 # Dealer feature pricing
 
-Single-file, self-contained page showing what a YachtWay dealership account gives
+Single-file, self-contained pages showing what a YachtWay dealership account gives
 away free and what every optional service costs. No build step and no external
-requests: open `index.html`.
+requests: open either file directly.
+
+| File | View |
+| --- | --- |
+| `index.html` | Desktop |
+| `mobile.html` | Mobile, `width=device-width` with the layout reflowed |
 
 It mirrors the **My Plan** tab on the dealer profile
 (`/dealers/{dealer-name}#plan`, owner only). Prices come from the shared
